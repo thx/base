@@ -1,6 +1,5 @@
 ---
 layout: page
-script: assets/post.js
 ---
 
 <div id="page">
@@ -26,24 +25,20 @@ script: assets/post.js
   </div>
   <div id="nav">
     <a href="javascript:void(0)" class="toggler" id="J_toggler">
-      <i class="iconfont">&#271;</i>
+      <i class="iconfont">&#xe60b;</i>
       <span class="label">导航</span>
     </a>
-    <h1 class="logo"><a href="{{ site.baseurl }}/"><b class="iconlogo">&#x343b;</i></b></h1>
-    <ul class="menu">
+    <h1 class="logo"><a href="/"><b class="iconlogo">&#x343b;</b></a></h1>
+    <ul class="categories menu">
     {% for category in site.categories %}
       <li>
-        <a href="{{ site.baseurl }}/{{ category[0] }}" class="entry">
+        <a href="/{{ category[0] }}" class="entry">
           <i class="iconfont mi-{{ category[0] }}"></i>
           {{ category[0] | capitalize }}
         </a>
       </li>
     {% endfor %}
-      <li>
-        <a href="https://github.com/thx/base" class="entry">
-          <i class="iconfont">&#61464;</i> Github
-        </a>
-      </li>
+      {% include extra-nav.html %}
     </ul>
   </div>
 </div>

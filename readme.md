@@ -2,11 +2,11 @@
 
 欢迎使用 thx/base 创建 THX 风格的文档网站。
 
+
 ## 所含内容
 
 ```bash
 .
-├── Gruntfile.js
 ├── _config.yml
 ├── _includes
 │   ├── archive.html
@@ -17,13 +17,13 @@
 │   │   └── bg.jpg
 │   └── syntax
 │       └── github.css
-├── package.json
 └── readme.md
 ```
 
 thx/base 本质上就是个 jekyll 脚手架，我们可以在其基础上快速开发稳当网站。同时，thx/base
 还包含 [THX 系列站点](http://thx.alibaba-inc.com) 风格的样式等资源文件，以及用来与
 thx/base 保持同步的 Grunt 任务。
+
 
 ## 用法
 
@@ -43,6 +43,7 @@ brew install git
 
 Windows 用户，推荐安装 [msysgit](https://code.google.com/p/msysgit/)。安装 jekyll
 的方法请看 [阿狼的文章](http://stormtea123.github.io/jekyll-window7.av/)。
+
 
 ### 简要步骤
 
@@ -81,6 +82,7 @@ git clone git@github.com:thx/base.git
 git remote set-url origin git@github.com:thx/brix-core.git
 ```
 
+
 ### 范例
 
 请参考如下示例：
@@ -88,6 +90,7 @@ git remote set-url origin git@github.com:thx/brix-core.git
 - [thx.github.io](https://github.com/thx/thx.github.io)
 - [brix-core](https://github.com/thx/brix-core/tree/gh-pages)
 - [magix](https://github.com/thx/magix/tree/gh-pages)
+
 
 ### 同步 thx/base
 
@@ -113,6 +116,7 @@ $ grunt base:push
 ```
 
 就可以把修改过的 thx/base 相关文件（CSS、`_includes` 等）推送到 thx/base 目录了。
+
 
 ## 来源
 
