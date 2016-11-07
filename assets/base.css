@@ -155,7 +155,8 @@ a {
 }
 
 .mi-demos:before,
-.mi-tutorial:before {
+.mi-tutorial:before,
+.mi-tutorials:before {
     content: '\e610';
 }
 
