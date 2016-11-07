@@ -97,6 +97,10 @@ a {
 /*
  * icons
  */
+.mi-thx:before,
+.mi-base:before {
+    content: '\343b';
+}
 .mi-projects:before {
     content: '\e603';
 }
