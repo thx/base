@@ -1,5 +1,4 @@
 baseurl: /base
-safe: true
 permalink: /:categories/:title
 excerpt_separator: "\n\n"
 exclude:
@@ -7,3 +6,7 @@ exclude:
 
 title: Base
 url: https://thx.github.io/base
+
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
