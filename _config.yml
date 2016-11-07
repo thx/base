@@ -4,3 +4,6 @@ permalink: /:categories/:title
 excerpt_separator: "\n\n"
 exclude:
   - readme.md
+
+title: THX
+url: https://thx.github.io/base
