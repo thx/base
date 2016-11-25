@@ -11,5 +11,6 @@
 <body bx-app class="{% if site.baseurl %}skin-{{ site.baseurl | remove_first: '/' }} {% else %}skin-home {% endif %}">
   {{ content }}
   {% include scripts.html %}
+  {% include extra-scripts.html %}
 </body>
 </html>
